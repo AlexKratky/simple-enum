@@ -1,0 +1,21 @@
+{
+    "name": "alexkratky/simple-enum",
+    "description": "Simple PHP Enum library.",
+    "keywords": ["php", "php", "variable", "object", "enum", "library"],
+    "license": ["MIT"],
+    "authors": [{
+            "name": "Alex Kratky",
+            "homepage": "https://alexkratky.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "files": [
+            "src/MissingEnumValueException.php",
+            "src/Enum.php",
+            "src/ArrayEnum.php"
+        ]
+    }
+}
